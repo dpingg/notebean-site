@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NoteBean | Music Theory Practice</title>
-  <meta name="description" content="NoteBean is a music theory practice app for beginners, with note reading, ear training, rhythm, and interval exercises.">
+  <title>小音豆｜乐理基础练习</title>
+  <meta name="description" content="小音豆是一款面向音乐初学者的乐理基础练习 App，支持识谱、听音、节奏和音程练习。">
   <script>
     (() => {
       const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
@@ -76,7 +76,11 @@
     }
     main { max-width: 820px; margin: 0 auto; padding: 48px 20px; }
     nav { display: flex; justify-content: flex-end; margin-bottom: 16px; }
-    nav a, .links a { color: var(--cp-accent); font-weight: 600; text-decoration: none; }
+    nav a, .links a {
+      color: var(--cp-accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
     nav a:hover, .links a:hover { color: var(--cp-accent-hover); text-decoration: underline; }
     .card {
       padding: 32px;
@@ -104,27 +108,27 @@
 </head>
 <body>
   <main>
-    <nav aria-label="Language">
-      <a href="zh/" lang="zh-CN">中文</a>
+    <nav aria-label="语言">
+      <a href="../" lang="en">English</a>
     </nav>
     <section class="card">
-      <h1>NoteBean</h1>
-      <p class="lead">Essential music theory practice for beginners.</p>
-      <p>Build a strong foundation through note reading, ear training, rhythm, and interval exercises. Piano and violin are supported for note reading, ear training, and interval practice.</p>
+      <h1>小音豆</h1>
+      <p class="lead">面向音乐初学者的乐理基础练习 App。</p>
+      <p>通过识谱、听音、节奏和音程四种练习模式，在轻松的挑战中巩固乐理基础。识谱、听音和音程练习支持钢琴与小提琴。</p>
 
-      <div class="features" aria-label="Practice modes">
-        <div class="feature"><strong>Note Reading</strong><span>Identify notes written on the staff.</span></div>
-        <div class="feature"><strong>Ear Training</strong><span>Listen to a pitch and choose the correct answer.</span></div>
-        <div class="feature"><strong>Rhythm</strong><span>Learn and recognize common rhythm patterns.</span></div>
-        <div class="feature"><strong>Intervals</strong><span>Practice identifying the distance between notes.</span></div>
+      <div class="features" aria-label="练习模式">
+        <div class="feature"><strong>识谱</strong><span>练习辨认五线谱上的音符。</span></div>
+        <div class="feature"><strong>听音</strong><span>聆听音高并选择正确答案。</span></div>
+        <div class="feature"><strong>节奏</strong><span>学习并辨认常见节奏型。</span></div>
+        <div class="feature"><strong>音程</strong><span>练习辨认音符之间的距离。</span></div>
       </div>
 
-      <h2>Simple, private, and focused</h2>
-      <p>The app is available in Simplified Chinese and English. No sign-in, ads, or in-app purchases are required. Nicknames, avatars, settings, and practice progress stay on your device.</p>
+      <h2>简单、私密、专注练习</h2>
+      <p>App 支持简体中文和英文，无需登录，无广告、无应用内购买。昵称、头像、设置和练习进度仅保存在设备本机。</p>
 
       <div class="links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="support.html">Support</a>
+        <a href="privacy.html">隐私政策</a>
+        <a href="support.html">支持与帮助</a>
       </div>
     </section>
   </main>
